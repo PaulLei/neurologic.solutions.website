@@ -1,6 +1,6 @@
 import reportApril1 from './reports/2021-04-01-eztrack-clearance.md?raw';
 import reportJune17 from './reports/2021-06-17-sbir-grant.md?raw';
-import reportDec5 from './reports/2026-12-05-nih-blueprint-award.md?raw';
+import reportDec5 from './reports/2026-01-15-nih-blueprint-award.md?raw';
 import reportSept15 from './reports/2024-09-15-MarkGolnoosh-hiring.md?raw';
 
 export type NewsCategory =
@@ -104,7 +104,7 @@ export const newsItems: NewsItem[] = [
     link: "https://technical.ly/entrepreneurship/johns-hopkins-innovation-summit-2025/?nab=1",
   },
   {
-    date: "5 December 2026",
+    date: "15 January 2026",
     category: "Awards",
     title:
       "Neurologic Solutions Awarded $1 Million NIH Blueprint MedTech Optimizer Award to Advance EpiScalp™",
