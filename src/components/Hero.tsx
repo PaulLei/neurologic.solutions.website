@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import AESBanner from "./AESBanner";
 
 export default function Hero() {
   const [showScrollCue, setShowScrollCue] = useState(true);
@@ -75,6 +76,7 @@ export default function Hero() {
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="flex min-h-[calc(100vh-8rem)] items-center py-16 sm:py-20 lg:py-24">
             <div className="w-full max-w-5xl overflow-visible">
+              <AESBsaner />
               <h1 className="mb-6 overflow-visible text-[2.25rem] leading-[1.14] tracking-tight text-white sm:text-5xl sm:leading-[1.12] md:text-6xl lg:text-7xl lg:leading-[1.12]">
                 <span className="block font-extralight">
                   Empowering Providers,
@@ -91,7 +93,6 @@ export default function Hero() {
                 <span className="block overflow-visible bg-gradient-to-r from-[#d4b5ff] to-[#ffa94d] bg-clip-text pb-2 font-black leading-[1.12] text-transparent">
                   Diagnostic Excellence
                 </span>
-              </ AESBanner>
               </h1>
 
               <h2 className="mb-2 text-sm font-bold uppercase tracking-widest text-slate-300">
