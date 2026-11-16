@@ -76,7 +76,7 @@ export default function Hero() {
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="flex min-h-[calc(100vh-8rem)] items-center py-16 sm:py-20 lg:py-24">
             <div className="w-full max-w-5xl overflow-visible">
-              <AESBsaner />
+              <AESBanner />
               <h1 className="mb-6 overflow-visible text-[2.25rem] leading-[1.14] tracking-tight text-white sm:text-5xl sm:leading-[1.12] md:text-6xl lg:text-7xl lg:leading-[1.12]">
                 <span className="block font-extralight">
                   Empowering Providers,
