@@ -91,7 +91,7 @@ export default function Hero() {
                 <span className="block overflow-visible bg-gradient-to-r from-[#d4b5ff] to-[#ffa94d] bg-clip-text pb-2 font-black leading-[1.12] text-transparent">
                   Diagnostic Excellence
                 </span>
-                <AESBanner />
+              </ AESBanner>
               </h1>
 
               <h2 className="mb-2 text-sm font-bold uppercase tracking-widest text-slate-300">
