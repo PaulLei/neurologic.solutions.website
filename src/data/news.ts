@@ -105,7 +105,7 @@ export const newsItems: NewsItem[] = [
   },
   {
     date: "15 January 2026",
-    category: "Awards",
+    category: "Funding",
     title:
       "Neurologic Solutions Awarded $1 Million NIH Blueprint MedTech Optimizer Award to Advance EpiScalp™",
     excerpt:
