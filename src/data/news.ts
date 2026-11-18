@@ -122,7 +122,7 @@ export const newsItems: NewsItem[] = [
       "Neurologic Solutions Enters into Exclusive License Agreement for Breakthrough Epilepsy Technologies.",  
     excerpt:
       "Neurologic Solutions today announced an agreement to license technologies developed by Sridevi Sarma, PhD, a researcher from Johns Hopkins University Whiting School of Engineering, to commercialize EZTrackTM and EpiScalpTM, two revolutionary, software-driven technologies aimed at transforming epilepsy diagnosis and surgical treatment.",
-    image: "/Neurologic Solutions Epilepsy Technology Infographic.jpg",
+    image: "/Neurologic Solutions Breakthrough Technologies.png.jpg",
     link: "",
     reportMarkdown: LicenseAug24,
   },    
