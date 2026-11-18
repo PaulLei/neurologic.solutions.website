@@ -16,6 +16,7 @@ About Neurologic Solutions Neurologic Solutions is an innovative MedTech startup
 
 
 For more information, visit www.neurologicsolutions.net.
+
 Media Contact:
 Andy Gotshalk, CEO
 Neurologic Solutions
