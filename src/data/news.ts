@@ -2,6 +2,7 @@ import reportApril1 from './reports/2021-04-01-eztrack-clearance.md?raw';
 import reportJune17 from './reports/2021-06-17-sbir-grant.md?raw';
 import reportDec5 from './reports/2026-01-15-nih-blueprint-award.md?raw';
 import reportSept15 from './reports/2024-09-15-MarkGolnoosh-hiring.md?raw';
+import LicenseAug24 from "./reports/2026-08-24-EpiScalp-and-EZTrack-license.md?raw";
 
 export type NewsCategory =
   "Product" | "Company" | "Funding" | "Awards" | "Regulatory" | "Media";
@@ -114,4 +115,15 @@ export const newsItems: NewsItem[] = [
     link: "",
     reportMarkdown: reportDec5,
   },
+   {
+    date: "24 August 2026",
+    category: "Product",
+    title:
+      "Neurologic Solutions Enters into Exclusive License Agreement for Breakthrough Epilepsy Technologies.",  
+    excerpt:
+      "Neurologic Solutions today announced an agreement to license technologies developed by Sridevi Sarma, PhD, a researcher from Johns Hopkins University Whiting School of Engineering, to commercialize EZTrackTM and EpiScalpTM, two revolutionary, software-driven technologies aimed at transforming epilepsy diagnosis and surgical treatment.",
+    image: "/",
+    link: "",
+    reportMarkdown: LicenseAug24,
+  },    
 ];
