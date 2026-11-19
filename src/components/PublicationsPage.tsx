@@ -755,16 +755,16 @@ export default function PublicationsPage() {
               className="mt-2 max-w-3xl text-base leading-7"
               style={{ color: BRAND.muted, fontWeight: 300 }}
             >
-              These highlighted papers replace the previous publication set and
-              should be used for the EpiScalp™ and EZTrack™ product evidence
-              sections.
+              These highlighted papers were foundational in establishing the engineering principles and clinical evidence
+              behind our EpiScalp™ and EZTrack™ products.
             </p>
           </div>
 
           <div className="grid gap-5 lg:grid-cols-2">
             <ProductPaperList
               title="EpiScalp™"
-              subtitle="Papers supporting source-sink connectivity, interictal EEG biomarkers, and diagnostic modeling."
+              subtitle="This study established the source-sink connectivity as an interictal biomarker of the epileptogenic zone in intracranial EEG. 
+              EpiScalp™ applies source-sink connectivity to scalp EEG to produce epilepsy risk scores."
               accent="purple"
               titles={episcalpPublicationTitles}
               icon={
@@ -777,7 +777,8 @@ export default function PublicationsPage() {
 
             <ProductPaperList
               title="EZTrack™"
-              subtitle="Papers supporting neural fragility, epileptogenic zone localization, and seizure onset zone assessment."
+              subtitle="This study validated neural fragility as an intracranial EEG biomarker of the seizure onset zone. EZTrack™ computes neural fragility to generate
+              patient-specific heatmaps of high-fragility regions to help inform surgical decision making."
               accent="orange"
               titles={eztrackPublicationTitles}
               icon={
